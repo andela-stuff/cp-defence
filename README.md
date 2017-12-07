@@ -25,5 +25,5 @@ This document provides a *framework* on which I build my checkpoint reviews for 
 >> * https://webpack.js.org/configuration/devtool/
 
 ### To Exceed Specification
-> * Minify all 3 static content type (HTML, CSS, Javascript)
-> * Use tasks to automate conversion and the building of Jade, SCSS/SASS, Webpack (for Javascript file importation and concatenation using require(...)).
+> * Minify all 3 static content types (HTML, CSS, Javascript)
+> * Use tasks to automate conversion and the building of Jade, SCSS/SASS, Webpack (for Javascript file importation and concatenation using `require(...)`).
