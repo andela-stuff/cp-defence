@@ -29,3 +29,13 @@ This document provides a *framework* on which I build my checkpoint reviews for 
 ### To Exceed Specification
 > * Minify all 3 static content types (HTML, CSS, Javascript)
 > * Use tasks to automate conversion and the building of Jade, SCSS/SASS, Webpack (for Javascript file importation and concatenation using `require(...)`).
+
+## Project Management and Workflow
+
+### To Meet Specification
+> * Stories should be adequately broken down.
+> * Stories should be adequately fleshed out, and in accordance with the appropriate conventions/guidelines.
+> * Stories that are marked as done on Pivotal Tracker (PT) should actually be done in the app.
+> * All features in the app should be represented on the PT board.
+> * The README file should be well prepared. There should be a “contributing” section.
+> * Commit (and PR) messages should be in accordance with the appropriate conventions/guidelines.
