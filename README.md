@@ -8,6 +8,7 @@ This document provides a *framework* on which I build my checkpoint reviews for 
 > * The application should implement all server and client side requirements.
 > * The application should not throw console errors.
 > * The application should use production build of libraries, frameworks, ... (eg. production build of React, not development)
+> * The browser page should not refresh (for single-page applications).
 
 ### To Exceed Specification
 > * The application should add more functionality. For instance, the app could have more server endpoints.
@@ -23,6 +24,7 @@ This document provides a *framework* on which I build my checkpoint reviews for 
 >> * https://moduscreate.com/blog/optimizing-react-es6-webpack-production-build/
 >> * https://webpack.js.org/guides/production/
 >> * https://webpack.js.org/configuration/devtool/
+>> * Consider having 2 different Webpack configs, one for development and 1 for production. Let this reflect in your npm scripts `start` and `build`.
 
 ### To Exceed Specification
 > * Minify all 3 static content types (HTML, CSS, Javascript)
