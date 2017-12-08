@@ -21,8 +21,7 @@ This document provides a *framework* on which I build my checkpoint reviews for 
 > * Set up testing task with code coverage file generator.
 > * Set the project up to use ES6+, and transpile back to ES5 using Babel.
 > * Set up the project to use ESLint, and ensure it extends `airbnb-base`.
-> * Configure continuous integration (CI) to run the required tasks, tests, and then deploy to a cloud-based server.
->> Elements of the CI should include:
+> * Configure continuous integration (CI) to run the required tasks, tests, and then deploy to a cloud-based server. Elements of the CI should include:
 >> * Heroku-Github connection
 >> * Travis CI
 >> * Hound CI
@@ -49,7 +48,7 @@ This document provides a *framework* on which I build my checkpoint reviews for 
 ## Test Coverage
 
 ### To Meet Specification
-> * There should be 80% coverage of unit, integration and e2e tests, for both server and client side code.
+> * There should be at least 80% coverage of unit, integration and e2e tests, for both server and client side code.
 > * Test coverage should be hooked up with the continuous integration (CI) for deployment.
 > * The Test Coverage should report to CodeClimate/Coveralls or other coverage reporters.
 > * The necessary badges (TravisCI, CodeClimate, Coveralls) should be visible on the README.
