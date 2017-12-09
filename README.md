@@ -1,6 +1,7 @@
 # Checkpoint Defence
 
-This document provides a *framework* on which I build my checkpoint reviews for the fellows at Andela.
+This document provides a *framework* on which I build my checkpoint reviews for the fellows at Andela. This document applies
+to a very narrow subset of projects -  Javascript projects built with Node and React/Angular.
 
 ## System Functions
 
@@ -56,3 +57,16 @@ This document provides a *framework* on which I build my checkpoint reviews for 
 ### To Exceed Expectation
 > * There should be a test environment setup so no Mocks are used throughout the application's tests.
 > * Test Coverage should be at 100% for server and client side tests.
+
+## Code Organisation
+
+### To Meet Expectation
+> * Scripts and files should be placed in the appropriate directories.
+> * There should be a consistent and effective folder structure.
+> * Pascal case (LikeThis) should be used in file and class naming.
+> * Camel case (likeThis) should be used in function naming.
+> * File and class names must match.
+> * Use this as a guide: http://airbnb.io/javascript/#naming-conventions
+
+### To Exceed Expectation
+> * All static content reference in HTML should be compressed and minified into one file on deployment.
