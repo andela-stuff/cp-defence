@@ -78,5 +78,14 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 ### To Meet Expectation
 > * Code should be formatted with consistent, logical and easy to read formatting as described in the style guide.
 > * Ensure the appropriate HTTP status code is returned for different scenarios.
-> * Ensure user inputs are properly validated both in the server and client sides.
+> * Ensure user inputs are properly validated in both the server and client sides.
 > * Ensure there aren't excessive calls to the server or database.
+
+## Comments and Documentation
+
+### To Meet Expectation
+> * Comments should be sufficiently present in code.
+> * Comments should be concise.
+> * Comments should effectively explain the code segments they apply to.
+> * JSDoc comments should be properly formatted. See https://github.com/shri/JSDoc-Style-Guide
+> * The API should be well documented.
