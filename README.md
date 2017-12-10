@@ -6,6 +6,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 ## System Functions
 
 ### To Meet Expectation
+> * The application (both server and client sides) should be working.
 > * The application should implement all server and client side requirements.
 > * The application should not throw console errors.
 > * The application should use production build of libraries, frameworks, ... (eg. production build of React, not development)
@@ -45,6 +46,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * All features in the app should be represented on the PT board.
 > * The README file should be well prepared. There should also be a “contributing” section.
 > * Commit (and PR) messages should be in accordance with the appropriate conventions/guidelines.
+> * Do not commit auto-generated files, application settings and secret keys to source control.
 
 ## Test Coverage
 
@@ -70,3 +72,11 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 
 ### To Exceed Expectation
 > * All static content reference in HTML should be compressed and minified into one file on deployment.
+
+## Code Quality
+
+### To Meet Expectation
+> * Code should be formatted with consistent, logical and easy to read formatting as described in the style guide.
+> * Ensure the appropriate HTTP status code is returned for different scenarios.
+> * Ensure user inputs are properly validated both in the server and client sides.
+> * Ensure there aren't excessive calls to the server or database.
