@@ -80,6 +80,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * Ensure the appropriate HTTP status code is returned for different scenarios.
 > * Ensure user inputs are properly validated in both the server and client sides.
 > * Ensure there aren't excessive calls to the server or database.
+> * Use constants (enums) to represent an enumerator list (a limited set of values). For insance, instead of `user.gender = 'male';`, consider using `user.gender = UserGender.MALE`.
 
 ## Comments and Documentation
 
