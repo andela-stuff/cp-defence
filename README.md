@@ -11,6 +11,8 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * The application should not throw console errors.
 > * The application should use production build of libraries, frameworks, ... (eg. production build of React, not development)
 > * The browser page should not refresh (for single-page applications).
+> * Ensure all endpoints have been implemented, and working as expected.
+> * Ensure the endpoints recover gracefully when supplied with invalid data.
 
 ### To Exceed Expectation
 > * The application should add more functionality. For instance, the app could have more server endpoints.
