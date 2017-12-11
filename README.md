@@ -55,6 +55,8 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * Test coverage should be hooked up with the continuous integration (CI) for deployment.
 > * The Test Coverage should report to CodeClimate/Coveralls or other coverage reporters.
 > * The necessary badges (TravisCI, CodeClimate, Coveralls) should be visible on the README.
+> * While testing, check for the presence of relevant properties in the JSON returned from the endpoint being tested.
+> * While testing, check for the values of relevant properties in the JSON returned from the endpoint being tested.
 
 ### To Exceed Expectation
 > * There should be a test environment setup so no Mocks are used throughout the application's tests.
