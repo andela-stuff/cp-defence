@@ -82,8 +82,15 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 
 ### To Meet Expectation
 > * Code should be formatted with consistent, logical and easy to read formatting as described in the style guide.
+>> For instance, a variable name like `message` can be considered easier to read than `msg`.
 > * Ensure the appropriate HTTP status code is returned for different scenarios.
 > * Ensure user inputs are properly validated in both the server and client sides.
+>> For instance, if in the action of a controller on the server side you come across the expression `let name = req.body.user.name`,  
+>> This assumes that `req.body.user` is not null/undefined.  
+>> Now we know `req.body` should never be undefined (because of the various Express middleware that ensure `req` has a `body` property).  
+>> So our focus now becomes to ensure that `req.body.user` is not null/undefined.  
+>> If, in that controller function, you can't see any expression that ensures that `req.body.user` is not null/undefined, then go through every middleware execution has to pass through before landing in this controller action.  
+>> If you still can't find any expression that ensures that `req.body.user` is not null/undefined, then raise this as an issue.
 > * Ensure there aren't excessive calls to the server or database.
 > * Use constants (enums) to represent an enumerator list (a limited set of values). For insance, instead of `user.gender = 'male';`, consider using `user.gender = UserGender.MALE`.
 
