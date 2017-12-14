@@ -71,6 +71,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * There should be a consistent and effective folder structure.
 > * Pascal case (LikeThis) should be used in file and class naming.
 > * Camel case (likeThis) should be used in function naming.
+> * Upper snake case (LIKE_THIS) should be used in naming constants.
 > * File and class names must match.
 > * Use this as a guide: http://airbnb.io/javascript/#naming-conventions
 
