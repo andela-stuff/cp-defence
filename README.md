@@ -93,6 +93,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 >> If you still can't find any expression that ensures that `req.body.user` is not null/undefined, then raise this as an issue.
 > * Ensure there aren't excessive calls to the server or database.
 > * Use constants (enums) to represent an enumerator list (a limited set of values). For insance, instead of `user.gender = 'male';`, consider using `user.gender = UserGender.MALE`.
+> * Ensure there are no commented-out code snippets in your codebase.
 
 ## UI/UX
 
