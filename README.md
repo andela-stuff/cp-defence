@@ -69,7 +69,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 ### To Meet Expectation
 > * Scripts and files should be placed in the appropriate directories.
 > * There should be a consistent and effective folder structure.
-> * Pascal case (LikeThis) should be used in file and class naming.
+> * Pascal case (LikeThis) should be used in class (and the containing file) naming.
 > * Camel case (likeThis) should be used in function naming.
 > * Upper snake case (LIKE_THIS) should be used in naming constants.
 > * File and class names must match.
