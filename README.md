@@ -73,7 +73,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * Camel case (likeThis) should be used in function naming.
 > * Upper snake case (LIKE_THIS) should be used in naming constants.
 > * File and class names must match.
-> * Models representing singular objects should be named in their singular form. A model representing an employee should be named `Employee`, not `Employees`.
+> * Models representing singular objects should be named in their singular form. A model representing an employee should be named `Employee`, not `Employees`. See example of [model definitions](http://sequelize.readthedocs.io/en/2.0/docs/models-definition/).
 > * Use this as a guide: http://airbnb.io/javascript/#naming-conventions
 
 ### To Exceed Expectation
