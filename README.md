@@ -47,7 +47,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * Stories that are marked as done on Pivotal Tracker (PT) should actually be done in the app.
 > * All features in the app should be represented on the PT board.
 > * The README file should be well prepared. There should also be a “contributing” section.
-> * Commit (and PR) messages should be in accordance with the appropriate conventions/guidelines.
+> * Commit messages, branch names and PRs should be in accordance with the appropriate conventions/guidelines.
 > * Do not commit auto-generated files, application settings and secret keys to source control.
 
 ## Test Coverage
