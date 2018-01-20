@@ -102,12 +102,11 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * It should be easy for a user to understand what to do next.
 > * The application should display an appropriate message when the user enters an invalid input.
 > * The application should provide appropriate feedback (e.g. dialog) when the user performs an action (like when the user creates a group).
-> * The web page should not reload (for single-page applications).
 > * The UI elements should be placed in appropriate positions on the page where they are easily accessed without any form of obscurity.
 > * The design shouldn’t contain glitches, no weird overflow of DOM elements, no weird scrollbars in awkward positions.
 > * The application obeys the Material Design specs. [insert link here]()
 > * The application uses consistent colors and font styles.
-> * The transition between pages should be asynchronous, no page reloads when moving from one route to another.
+> * The transition between pages should be asynchronous, no page reloads when moving from one route to another (for single-page applications).
 > * The application is fully responsive without glitches covering xs, md and lg devices screens.
 > * Perfect typography, the appropriate fonts are used to display content based on context (headings, long texts, messages), all language shown in messages are clearly expressed.
 > * All information alerts, dialogs and messages are displayed with/as material dialog boxes, toasts messages. No alert, confirm, prompt are used.
