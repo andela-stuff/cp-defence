@@ -24,7 +24,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * There should be at least one form of minification of static content.
 > * Set up testing task with code coverage file generator.
 > * Set the project up to use ES6+, and transpile back to ES5 using Babel.
-> * Set up the project to use ESLint, and ensure it extends `airbnb-base`.
+> * Set up the project to use ESLint, and ensure it extends `airbnb-base` (or `airbnb` for React).
 > * Configure continuous integration (CI) to run the required tasks, tests, and then deploy to a cloud-based server. Elements of the CI should include:
 >> * Heroku-Github connection
 >> * Travis CI
