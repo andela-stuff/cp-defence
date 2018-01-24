@@ -121,6 +121,6 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 ### To Meet Expectation
 > * Comments should be sufficiently present in code.
 > * Comments should be concise.
-> * Comments should effectively explain the code segments they apply to.
+> * Comments should effectively explain the code segments they apply to. Similarly, API docs should accurately describe the operations of their endpoints.
 > * JSDoc comments should be properly formatted. See https://github.com/shri/JSDoc-Style-Guide
 > * The API should be well documented.
