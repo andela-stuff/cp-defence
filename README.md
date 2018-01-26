@@ -50,7 +50,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * The README file should be well prepared.
 > * There should also be a “contributing” section in README and/or a CONTRIBUTING.md file. It's a great place to let future contributors know what code, PR, commit message conventions & style guide you're using.
 > * You should also work on including sections like "Frequently Asked Questions", "Limitations", "Testing", etc. in README.
-> * If the README states a particular license for the project, then there should be LICENSE file with the content of that license.
+> * The README should state a particular license for the project, and there should be LICENSE file with the content of that license.
 > * Commit messages, branch names and PRs should be in accordance with the appropriate conventions/guidelines.
 > * Do not commit auto-generated files, application settings and secret keys to source control.
 
