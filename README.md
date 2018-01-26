@@ -42,9 +42,10 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 ## Project Management and Workflow
 
 ### To Meet Expectation
+> * Pivotal Tracker (PT) board should show relevant chores and bug fixes, not just fixtures. For instance, it should show chores that have to be done to set up the project, as well as bug fixes that may be as a result of facilitator feedback.
 > * Stories should be adequately broken down.
 > * Stories should be adequately fleshed out, and in accordance with the appropriate conventions/guidelines.
-> * Stories that are marked as done on Pivotal Tracker (PT) should actually be done in the app.
+> * Stories that are marked as done on PT should actually be done in the app.
 > * All features in the app should be represented on the PT board.
 > * The README file should be well prepared.
 > * There should also be a “contributing” section in README and/or a CONTRIBUTING.md file.
