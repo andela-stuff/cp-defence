@@ -54,6 +54,13 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * Commit messages, branch names and PRs should be in accordance with the appropriate conventions/guidelines.
 > * Do not commit auto-generated files, application settings and secret keys to source control.
 
+### To Exceed Expectation
+> * Create a wiki for the project on Github. The wiki can contain the following pages:
+>> * Home
+>> * Branch Naming Convention
+>> * Commit Message Convention
+>> * Pull Request Naming and Description Convention
+
 ## Test Coverage
 
 ### To Meet Expectation
