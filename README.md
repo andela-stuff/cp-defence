@@ -107,6 +107,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * Ensure there aren't excessive calls to the server or database.
 > * Use constants (enums) to represent an enumerator list (a limited set of values). For insance, instead of `user.gender = 'male';`, consider using `user.gender = UserGender.MALE`.
 > * Ensure there are no commented-out code snippets in your codebase.
+> * Ensure proper use of React component life cycle methods, especially `componentWillMount`. https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 
 ## UI/UX
 
