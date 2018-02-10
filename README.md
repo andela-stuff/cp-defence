@@ -110,6 +110,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * Ensure proper use of React component life cycle methods, especially `componentWillMount`.
 >> * https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 >> * https://stackoverflow.com/questions/41612200/in-react-js-should-i-make-my-initial-network-request-in-componentwillmount-or-co/41612993#41612993
+>> * https://engineering.musefind.com/react-lifecycle-methods-how-and-when-to-use-them-2111a1b692b1
 
 ## UI/UX
 
