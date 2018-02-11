@@ -96,6 +96,14 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 ### To Meet Expectation
 > * Code should be formatted with consistent, logical and easy to read formatting as described in the style guide.
 >> For instance, a variable name like `message` can be considered easier to read than `msg`.
+>> It may be helpful to adjust your editor's settings to support your chosen guidelines and conventions. For VS Code, see https://code.visualstudio.com/docs/getstarted/settings. One good setting to adjust is the editor's vertical rulers to help you know when you have exceeded the recommended maximum number of characters per line. For instance, to make a ruler appear at the 80-character (Andela) and 100-character (Airbnb) limits for Javascript files, you can add the following in your __User Settings__:
+```JSON
+{
+    "[javascript]": {
+        "editor.rulers": [80, 100]
+    }
+}
+```
 > * Ensure there are no commented-out code snippets in your codebase.
 -----
 > * Ensure the web API is well designed. See https://www.codeproject.com/Articles/1227505/Top-REST-API-Best-Practices
