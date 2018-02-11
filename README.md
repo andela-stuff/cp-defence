@@ -96,6 +96,9 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 ### To Meet Expectation
 > * Code should be formatted with consistent, logical and easy to read formatting as described in the style guide.
 >> For instance, a variable name like `message` can be considered easier to read than `msg`.
+> * Ensure there are no commented-out code snippets in your codebase.
+-----
+> * Ensure the web API is well designed. See https://www.codeproject.com/Articles/1227505/Top-REST-API-Best-Practices
 > * Ensure the appropriate HTTP status code is returned for different scenarios.
 > * Ensure user inputs are properly validated in both the server and client sides.
 >> For instance, if in the action of a controller on the server side you come across the expression `let name = req.body.user.name`,  
@@ -106,7 +109,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 >> If you still can't find any expression that ensures that `req.body.user` is not null/undefined, then raise this as an issue.
 > * Ensure there aren't excessive calls to the server or database.
 > * Use constants (enums) to represent an enumerator list (a limited set of values). For insance, instead of `user.gender = 'male';`, consider using `user.gender = UserGender.MALE`.
-> * Ensure there are no commented-out code snippets in your codebase.
+-----
 > * Ensure proper use of React component life cycle methods, especially `componentWillMount`.
 >> * https://daveceddia.com/where-fetch-data-componentwillmount-vs-componentdidmount/
 >> * https://stackoverflow.com/questions/41612200/in-react-js-should-i-make-my-initial-network-request-in-componentwillmount-or-co/41612993#41612993
