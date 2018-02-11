@@ -99,7 +99,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * Ensure there are no commented-out code snippets in your codebase.
 -----
 > * Ensure the web API is well designed. See https://www.codeproject.com/Articles/1227505/Top-REST-API-Best-Practices
-> * Ensure the appropriate HTTP status code is returned for different scenarios.
+> * Ensure the appropriate HTTP methods are used, and that HTTP status code is returned for different scenarios. See https://code-maze.com/the-http-reference/
 > * Ensure user inputs are properly validated in both the server and client sides.
 >> For instance, if in the action of a controller on the server side you come across the expression `let name = req.body.user.name`,  
 >> This assumes that `req.body.user` is not null/undefined.  
