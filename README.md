@@ -132,7 +132,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * The application should provide appropriate feedback (e.g. dialog) when the user performs an action (like when the user creates a group).
 > * The UI elements should be placed in appropriate positions on the page where they are easily accessed without any form of obscurity.
 > * The design shouldn’t contain glitches, no weird overflow of DOM elements, no weird scrollbars in awkward positions.
-> * The application obeys the Material Design specs. [insert link here]()
+> * The application obeys the [Material Design](http://materializecss.com/) specs.
 > * The application uses consistent colors and font styles.
 > * The transition between pages should be asynchronous, no page reloads when moving from one route to another (for single-page applications).
 > * The application is fully responsive without glitches covering xs, md and lg devices screens.
