@@ -100,7 +100,7 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 ```JSON
 {
     "[javascript]": {
-        "editor.rulers": [80, 100]
+        "editor.rulers": [80, 100] 
     }
 }
 ```
