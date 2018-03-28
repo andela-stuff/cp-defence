@@ -71,6 +71,8 @@ to a very narrow subset of projects -  Javascript projects built with Node and R
 > * The necessary badges (TravisCI, CodeClimate, Coveralls) should be visible on the README.
 > * While testing, check for the presence of relevant properties in the JSON returned from the endpoint being tested.
 > * While testing, check for the values of relevant properties in the JSON returned from the endpoint being tested.
+>> * Where applicable, you may want to compare the values of the properties of the object in the request body to the values of the properties of the object in the response JSON.
+>> * Where applicable, you may want to check the length of the array in the response JSON.
 
 ### To Exceed Expectation
 > * There should be a test environment setup so no Mocks are used throughout the application's tests.
